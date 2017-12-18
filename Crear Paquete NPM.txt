@@ -1,0 +1,81 @@
+------------------------------------
+-----Creando paquetes en NPM--------
+------------------------------------
+
+------------------
+Iniciando paquete
+------------------
+npm init 
+----->name 'vacio'
+----->version '0.1.0'
+----->descripcion 'opcional'
+----->entry point(archivo opcional js) 'server.js'
+----->test command 'vacio'
+----->git repository 'vacio'
+----->keywords 'opcional'
+----->license 'MIT'
+
+npm install --save 'nombre libreria (en este caso express)'
+----->	hacer un archivo igual al nombre que se pone en el entry point 
+	de arriba y meter el codigo que esta en esta pagina 
+	(https://expressjs.com/en/guide/routing.html) aqui ya tenemos el localhost.
+
+npm install --save materialize-css
+------> 	se crea un archivo ejemplo.scss
+
+npm install --save gulp gulp-sass
+------> 	se crea un archivo gulp.js(aqui se van hacer las distintas 
+		tareas para la aplicaccion)
+
+npm install --save-dev gulp gulp-sass (el dev crea las dependencias aparte)
+npm i -g gulp
+-------> se instala global esta dependencia de gulp.
+
+npm install --save gulp-rename
+-------> sirve para renombrar los archivos finales en caso de algun error.
+
+npm install --save pug
+------> se crea una carpeta views y dentro se crea un archivo 
+	ejemplo.pug(este archivo ser va ahcer depende de 
+	las cantidades de vistas de la aplicacion)(herramienda para convertir 
+	de html a jade es 'jade 2 html')
+
+// despues de este paso se crea una carpeta sweets
+------>   donde esta aloja las imagenes de la aplicacion y con una tarea
+	  en el archivo gulp.js, esta crea una carpeta espejo para el cliente.
+
+npm install --save-dev browserify babelify babel-preset-env babel-coreg
+------->  se crea una nueva carpeta src y se crea un archivo js(este archivo llevara
+	  la logica del proyecto).
+
+npm i --save-dev vinyl-source-stream
+------> Sirve para pasar de browserify a gulp para procesar los archivos.
+
+npm install --save page
+-------> Sirve para las paginación de la aplicacion web con el fin de no sobre cargar 
+	 los link.
+
+npm i --save-dev watchify
+-------> sirve para automatizar el build de la aplicacion es decir hacer un proceso automatico
+	que a la hora de editar algo no bajemos el servidor para no perder tiempo.
+
+npm i --save yo-yo
+-------> Nos ayuda a trabajar con templates y volverlos objetos del DOM
+
+ npm install --save empty-element
+-------> Le pasa los elementos del DOM y lo que hace por nosostro
+	 es borrar todos los elementos que tenga por dentro
+
+
+
+
+
+
+
+
+
+---------------------------------
+|	82505678 -> Suyen	|
+|	87500768 -> Ana Upoli	|
+|	85775713 -> Plan Mov	|
+---------------------------------

@@ -1,0 +1,35 @@
+{
+  "name": "platzigram_js",
+  "version": "0.1.0",
+  "description": "Comparte tur Fotos estudiando en platzi con el resto de la comunidad",
+  "main": "server.js",
+  "keywords": [
+    "platzi",
+    "javascript",
+    "curso-defenitivo",
+    "platzigram"
+  ],
+  "author": "Kevin Marquez <marquezkrodriguez24@gmail.com> (https://www.npmjs.com/~kmarquez17)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "materialize-css": "^0.100.2",
+    "page": "^1.7.1",
+    "pug": "^2.0.0-rc.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babelify": "^8.0.0",
+    "browserify": "^14.5.0",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  },
+  "scripts": {
+    "build": "gulp",
+    "start": "gulp watch | node server.js"
+  }
+}
