@@ -59,14 +59,15 @@ npm i --save-dev watchify
 -------> sirve para automatizar el build de la aplicacion es decir hacer un proceso automatico
 	que a la hora de editar algo no bajemos el servidor para no perder tiempo.
 
-npm i --save yo-yo
+npm install yo-yo
 -------> Nos ayuda a trabajar con templates y volverlos objetos del DOM
 
  npm install --save empty-element
 -------> Le pasa los elementos del DOM y lo que hace por nosostro
 	 es borrar todos los elementos que tenga por dentro
 
-
+npm install --save title
+-------> Sirve para cambiar el titulo de la pestaña dinamicamente.
 
 
 
