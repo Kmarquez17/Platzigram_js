@@ -44,7 +44,7 @@ npm install --save pug
 ------>   donde esta aloja las imagenes de la aplicacion y con una tarea
 	  en el archivo gulp.js, esta crea una carpeta espejo para el cliente.
 
-npm install --save-dev browserify babelify babel-preset-env babel-coreg
+npm install --save-dev browserify babelify babel-preset-env babel-core
 ------->  se crea una nueva carpeta src y se crea un archivo js(este archivo llevara
 	  la logica del proyecto).
 
