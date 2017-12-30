@@ -66,11 +66,11 @@ npm install yo-yo
 -------> Le pasa los elementos del DOM y lo que hace por nosostro
 	 es borrar todos los elementos que tenga por dentro
 
-npm install --save title
+npm i--save title
 -------> Sirve para cambiar el titulo de la pestaña dinamicamente.
 
-
-
+npm i--save moment
+--------> Sirve para montar formato de fechas, es decir indicarnos que dia o tal hora se hicieron modificaciones.
 
 
 
