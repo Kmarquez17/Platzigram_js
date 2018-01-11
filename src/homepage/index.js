@@ -14,7 +14,7 @@ page('/', function (ctx, next) {
   			avatar: 'https://scontent.fmga2-1.fna.fbcdn.net/v/t1.0-9/13178985_986721878072500_655539480996127349_n.jpg?oh=93bc18796f85886646ec6290811737ac&oe=5AB080CB'
   		},
   		url: 'https://scontent.fmga2-1.fna.fbcdn.net/v/t1.0-9/13178985_986721878072500_655539480996127349_n.jpg?oh=93bc18796f85886646ec6290811737ac&oe=5AB080CB',
-  		likes: 2,
+  		likes: 0,
   		liked:false,
       createdAt: new Date()
   	},

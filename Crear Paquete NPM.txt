@@ -73,6 +73,14 @@ npm i--save moment
 --------> Sirve para montar formato de fechas, es decir indicarnos que dia o tal hora se hicieron modificaciones.
 
 
+npm install intl-relativeformat --save
+--------> Sirve para internacionalizar fecha.
+
+npm install intl --save
+--------> Sirve para que no de error en Node.js, cuando se requiere que sea global.
+
+npm i --save intl-messageformat
+--------> Sirve para internacionalizar texto.
 
 
 ---------------------------------
