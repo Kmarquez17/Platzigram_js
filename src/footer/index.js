@@ -14,8 +14,6 @@ var translate = require('../translate')
     </div>
   </div>
 </footer>`;
-
-
 function lang(locale){
   localStorage.locale = locale
   location.reload();
