@@ -6,7 +6,7 @@ var request = require('superagent')
 var header = require('../header')
 var axios  = require('axios')
 
-page('/', header, loadPicturesFetch, function (ctx, next) {
+page('/', header, asyncLoad, function (ctx, next) {
   title('Platzigram');
   var main = document.getElementById('main-container');
   empty(main).appendChild(template(ctx.pictures));
@@ -47,4 +47,13 @@ function loadPicturesFetch(ctx, next){
     .catch(function(err){
       console.log(err)
     })
+}
+
+async function asyncLoad(ctx , next){
+    try {
+      ctx.pictures = await fetch('/api/pictures').then(res =>  res.json())
+      next()
+    } catch(e) {
+      return console.log(e);
+    }
 }

@@ -88,6 +88,10 @@ npm i --save superagent
 npm i --save axios
 ---------> Sirve para renderizar paginaciones con promesas
 
+
+npm i --save-dev babel-plugin-syntax-async-functions babel-plugin-transform-regenerator babel-preset-es2015
+
+npm install --save babel-polyfill
 ---------------------------------
 |	82505678 -> Suyen	|
 |	87500768 -> Ana Upoli	|
