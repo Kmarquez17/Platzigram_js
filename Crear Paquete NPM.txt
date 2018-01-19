@@ -82,8 +82,12 @@ npm install intl --save
 npm i --save intl-messageformat
 --------> Sirve para internacionalizar texto.
 
-npm install speragent
----------> Sirve para renderizar paginaciones
+npm i --save superagent
+---------> Sirve para renderizar paginaciones con callback
+
+npm i --save axios
+---------> Sirve para renderizar paginaciones con promesas
+
 ---------------------------------
 |	82505678 -> Suyen	|
 |	87500768 -> Ana Upoli	|
